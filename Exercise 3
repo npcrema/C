@@ -1,0 +1,21 @@
+//Code for exercise 3
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+{
+int x=0;
+for (int i=0;i<100; i++)
+{
+    x=x+1;
+    if ((x % 5 == 0)&& (x % 3 == 0)){
+    printf("FooBaa\n");}
+    else if(x % 3 == 0){
+    printf("Foo\n");}
+    else if (x % 5 == 0){
+    printf("Baa\n");}
+    else
+    printf("%i\n", x);
+}
+
+}
